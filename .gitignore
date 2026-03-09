@@ -1,0 +1,61 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ===== Virtual Environments =====
+venv/
+env/
+.venv/
+.env
+!.env.example
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS Files =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== Models & Weights =====
+models/mistral_law_generator/checkpoint-*/
+models/mistral_law_generator/final/
+models/models--sentence-transformers--all-MiniLM-L6-v2/
+models/trained/*.pt
+
+# ===== Data =====
+data/chromadb/
+data/training/
+
+# ===== Output / Results =====
+output/
+
+# ===== PyTorch / CUDA =====
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+
+# ===== pytest =====
+.pytest_cache/
+htmlcov/
+.coverage
